@@ -1,6 +1,6 @@
 <template>
   <v-app>
-    <NavBar />
+    
     <Header />
     <v-main>
       <router-view />
@@ -14,11 +14,10 @@
 import Header from '@/components/Header.vue'
 import Footer from '@/components/Footer.vue'
 import Body from '@/components/Body.vue'
-import NavBar from '@/components/NavBar.vue'
+
 export default {
   name: 'App',
   components: {
-    NavBar,
     Footer,
     Header,
     Body
