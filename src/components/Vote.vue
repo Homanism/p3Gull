@@ -19,32 +19,32 @@ export default {
   data: () => ({
     cards: [{
       name: "Ballinciaga",
-      rate: 4.8,
+      rate: 4.4,
       link: 'https://i0.wp.com/p3.no/wp-content/uploads/2022/11/Ballinciaga.png?w=781&ssl=1',
       des: 'Ballinciaga har gått fra å produsere russelåter i hopetall til å skape musikk som får folk i hele landet til å danse på bordet.'
     },
     {
-      name: "Ballinciaga",
-      rate: 4.8,
-      link: 'https://i0.wp.com/p3.no/wp-content/uploads/2022/11/Ballinciaga.png?w=781&ssl=1',
-      des: 'Ballinciaga har gått fra å produsere russelåter i hopetall til å skape musikk som får folk i hele landet til å danse på bordet.'
+      name: "Undergrunn",
+      rate: 4.3,
+      link: 'https://i0.wp.com/p3.no/wp-content/uploads/2022/11/Undergrunn.png?w=781&ssl=1.jpg',
+      des: 'Undergrunn har tilsynelatende fått kulturell kapital fora med morsmelka. Rapgruppa er unge og vitale, og balanserer klassisk rapstil med lekne melodier.'
     },
     {
-      name: "Ballinciaga",
-      rate: 4.8,
-      link: 'https://i0.wp.com/p3.no/wp-content/uploads/2022/11/Ballinciaga.png?w=781&ssl=1',
-      des: 'Ballinciaga har gått fra å produsere russelåter i hopetall til å skape musikk som får folk i hele landet til å danse på bordet.'
+      name: "Synne Vo",
+      rate: 4.6,
+      link: 'https://i0.wp.com/p3.no/wp-content/uploads/2022/11/SynneVo.png?w=781&ssl=1.jpg',
+      des: 'Synne Vo er en hitmaskin som ikke kun skriver fengende låter om eget liv, men som også skriver popperler for andre artister.'
     },{
-      name: "Ballinciaga",
-      rate: 4.8,
-      link: 'https://i0.wp.com/p3.no/wp-content/uploads/2022/11/Ballinciaga.png?w=781&ssl=1',
-      des: 'Ballinciaga har gått fra å produsere russelåter i hopetall til å skape musikk som får folk i hele landet til å danse på bordet.'
+      name: "Ramón",
+      rate: 4.5,
+      link: 'https://i0.wp.com/p3.no/wp-content/uploads/2022/11/Ramon.png?fit=781%2C904&amp;ssl=1.jpg',
+      des: 'Ramón ble kjent for hele Norge over natta da han med «Ok jeg lover» satte ny norsk strømme-rekord med drøyt 600.000 avspillinger på ett døgn.'
     },
     {
-      name: "Ballinciaga",
+      name: "Karpe",
       rate: 4.8,
-      link: 'https://i0.wp.com/p3.no/wp-content/uploads/2022/11/Ballinciaga.png?w=781&ssl=1',
-      des: 'Ballinciaga har gått fra å produsere russelåter i hopetall til å skape musikk som får folk i hele landet til å danse på bordet.'
+      link: 'https://i0.wp.com/p3.no/wp-content/uploads/2022/11/Karpe.png?fit=781%2C904&amp;ssl=1',
+      des: 'Karpe har ikke bare slått norske konsertrekorder med ti ganger Oslo Spektrum i år. De er også med på å redefinere vår oppfattelse av hva en konsertopplevelse kan være.'
     }]
   }),
 }
