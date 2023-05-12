@@ -1,16 +1,7 @@
 <template>
   <div class="blue__background">
     <v-row>
-      <v-col>
-        <VoteCard :card="card" />
-      </v-col>
-      <v-col>
-        <VoteCard :card="card" />
-      </v-col>
-      <v-col>
-        <VoteCard :card="card" />
-      </v-col>
-      <v-col>
+      <v-col v-for="card in  cards" :key="card">
         <VoteCard :card="card" />
       </v-col>
     </v-row>
@@ -26,16 +17,36 @@ export default {
     VoteCard,
   },
   data: () => ({
-    card: {
+    cards: [{
       name: "Ballinciaga",
       rate: 4.8,
       link: 'https://i0.wp.com/p3.no/wp-content/uploads/2022/11/Ballinciaga.png?w=781&ssl=1',
       des: 'Ballinciaga har gått fra å produsere russelåter i hopetall til å skape musikk som får folk i hele landet til å danse på bordet.'
-    }
+    },
+    {
+      name: "Ballinciaga",
+      rate: 4.8,
+      link: 'https://i0.wp.com/p3.no/wp-content/uploads/2022/11/Ballinciaga.png?w=781&ssl=1',
+      des: 'Ballinciaga har gått fra å produsere russelåter i hopetall til å skape musikk som får folk i hele landet til å danse på bordet.'
+    },
+    {
+      name: "Ballinciaga",
+      rate: 4.8,
+      link: 'https://i0.wp.com/p3.no/wp-content/uploads/2022/11/Ballinciaga.png?w=781&ssl=1',
+      des: 'Ballinciaga har gått fra å produsere russelåter i hopetall til å skape musikk som får folk i hele landet til å danse på bordet.'
+    },{
+      name: "Ballinciaga",
+      rate: 4.8,
+      link: 'https://i0.wp.com/p3.no/wp-content/uploads/2022/11/Ballinciaga.png?w=781&ssl=1',
+      des: 'Ballinciaga har gått fra å produsere russelåter i hopetall til å skape musikk som får folk i hele landet til å danse på bordet.'
+    },
+    {
+      name: "Ballinciaga",
+      rate: 4.8,
+      link: 'https://i0.wp.com/p3.no/wp-content/uploads/2022/11/Ballinciaga.png?w=781&ssl=1',
+      des: 'Ballinciaga har gått fra å produsere russelåter i hopetall til å skape musikk som får folk i hele landet til å danse på bordet.'
+    }]
   }),
-  // mounted() {
-  //   this.card
-  // },
 }
 </script>
 <style>
@@ -52,6 +63,6 @@ export default {
 }
 
 .v-row {
-  max-width: 1274px;
+  justify-content: center;
 }
 </style>
