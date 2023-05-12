@@ -48,6 +48,7 @@
       <div class="center__child">
         <v-img src="https://i0.wp.com/p3.no/wp-content/uploads/2022/11/Ballinciaga.png?w=781&ssl=1.jpg"
           class="img___p3Gull"></v-img>
+          <br>
         <h2>Ballinciaga</h2>
         <p><strong>«P3 Gull»-juryen om Ballinciaga:</strong></p>
         <p><em> Ballinciaga har gått fra å produsere russelåter i hopetall til å skape
@@ -57,15 +58,14 @@
         <p><em>Få artister har hatt så mange hits på ett år som det Ballinciaga har hatt.
             Kanskje skyldes det overraskende samarbeid eller de rosa maskene som gjør artistene utilgjengelig og
             distanserte i kontrast til den svært så tilgjengelige musikken? </em></p>
-        <p><em>Uansett: Det bli ikke fest uten Ballinciaga i 2022!</em></p>
+        <p><em>Uansett: Det bli ikke fest uten Ballinciaga i 2022!</em></p><br>
       </div>
       <v-img
         src="https://i0.wp.com/p3.no/wp-content/uploads/2022/05/Ballinciaga_11-scaled.jpg?fit=2560%2C1708&amp;ssl=1.jpg"
         class="img___p3Gull-full"></v-img>
       <div class="center__child">
-
         <figcaption>TVIHOLDER PÅ MASKENE: Ballinciaga hadde en utsolgt Spektrum-konsert i oktober. Foto: Kim
-          Erlandsen, NRK P3</figcaption>
+          Erlandsen, NRK P3</figcaption><br>
         <h2>Ikke ferdig med å sjokkere</h2>
         <p><em>– Hvordan vil dere oppsummere «Ballinciaga-året» 2022?</em></p>
         <p>– Kaos, jobb, og høy hastighet. Vi har prøvd å følge med så mye som mulig dette året, men å holde takt med
@@ -77,35 +77,34 @@
           din egen musikk.&nbsp;</p>
         <p><em>– Hva er planen deres i 2023?</em></p>
         <p>– Fortsette å sjokkere og prøve å gjøre det andre artister ikke tør å gjøre. Fortsette å lage hits,
-          selvfølgelig. Prøve å gi tilbake til alle fans vi har fått i år.</p>
+          selvfølgelig. Prøve å gi tilbake til alle fans vi har fått i år.</p><br>
       </div>
     </div>
     <div class="blue__background__color">
       <div class="center__child">
         <v-img src="https://i0.wp.com/p3.no/wp-content/uploads/2022/11/Undergrunn.png?w=781&ssl=1.jpg"
-          class="img___p3Gull"></v-img>
+          class="img___p3Gull"></v-img><br>
         <h2>Undergrunn</h2>
         <p><strong>«P3 Gull»-juryen om Undergrunn:</strong></p>
         <p><em>Undergrunn har tilsynelatende fått kulturell kapital fora med morsmelka. Rapgruppa er unge og vitale, og
             balanserer klassisk rapstil med lekne melodier. </em></p>
         <p><em>Deres referanserike univers og skrytete, men sjarmerende tekstlinjer gjør dem unike. Undergrunn har gjennom
             høy produktivitet og kvalitet engasjert publikum over hele landet, ikke minst med en av årets største
-            sommerlåter: «Italia»</em>.</p>
+            sommerlåter: «Italia»</em>.</p><br>
       </div>
       <v-img
         src="https://i0.wp.com/p3.no/wp-content/uploads/2022/10/52233244491_4f692fa48b_o-1-scaled.jpg?resize=1536%2C864&ssl=1.jpg"
         class="img___p3Gull-full"></v-img>">
       <div class="center__child">
-        <figcaption>LENGE PÅ TOPLISTENE: I mai fikk boybandet <a href="https://p3.no/superstjerner/">terningkast 6 for
-            sin
-            utsolgte konsert</a> på Sentrum scene. Foto: Eskil Olaf Vestre, NRK P3</figcaption>
+        <figcaption>LENGE PÅ TOPLISTENE: I mai fikk boybandet <a href="https://p3.no/superstjerner/">terningkast 6 for sin
+        utsolgte konsert</a> på Sentrum scene. Foto: Eskil Olaf Vestre, NRK P3</figcaption><br>
         <h2>Glemmer ikke hvalrossen</h2>
         <p><em><em>– Hvordan vil dere oppsummere «Undergrunn-året» 2022?</em> </em></p>
         <p>– Alt gikk etter planen. Kan ikke klage.</p>
         <p><em>– Hva husker dere best fra 2022?</em></p>
         <p>– RIP Freya.</p>
         <p><em>– Hva er planen deres i 2023?</em></p>
-        <p>– Ta over fullstendig.</p>
+        <p>– Ta over fullstendig.</p><br>
       </div>
     </div>
     <div class="black__background__color">
@@ -118,14 +117,14 @@
             for andre artister. Med låter man både kan synge, danse og gråte til treffer hun by og land og på tvers av
             generasjoner.</em></p>
         <p><em> Stemmen til Synne er full av overskudd og nerve, og på vakker gudbrandsdalsdialekt formidler hun tekster
-            om oppvekst og forelskelse kompromissløst direkte.</em></p>
+            om oppvekst og forelskelse kompromissløst direkte.</em></p><br>
       </div>
       <v-img
         src="https://i0.wp.com/p3.no/wp-content/uploads/2022/10/52155291620_1d995970e7_o-scaled.jpg?fit=2560%2C1706&amp;ssl=1.jpg"
         class="img___p3Gull-full"></v-img>
       <div class="center__child">
         <figcaption>MANGFOLDIG TALENT: Synne Vo var blant annet med på å skrive «Smilet i ditt eget speil» av Chris
-          Holsten, som vant «Årets låt» under «P3 Gull» 2021. Foto: Tom Øverlie, NRK P3</figcaption>
+          Holsten, som vant «Årets låt» under «P3 Gull» 2021. Foto: Tom Øverlie, NRK P3</figcaption><br>
         <h2>«Rådebank»-suksess</h2>
         <p id="block-cb84c02d-8446-47e6-8628-bb8ec36f7f9e"><em>– Hvordan vil du oppsummere «Synne Vo-året» 2022?</em>
         </p>
@@ -143,13 +142,13 @@
         <p id="block-3f0c22b2-d13c-4603-b4d5-4c3269424373"><em>– Hva er planen din i 2023?</em></p>
         <p id="block-f070b777-53cd-4a8f-90fc-eef23a7708c5">– Slippe mer musikk, først og fremst. Også skal jeg ha mitt
           første egne show på Rockefeller 10. mars, som er sjukt spennende! Ellers ser jeg veldig fram til
-          festivalsommeren, det blir et eventyr!&nbsp;</p>
+          festivalsommeren, det blir et eventyr!&nbsp;</p><br>
       </div>
     </div>
     <div class="blue__background__color">
       <div class="center__child">
         <v-img src="https://i0.wp.com/p3.no/wp-content/uploads/2022/11/Ramon.png?fit=781%2C904&amp;ssl=1.jpg"
-          class="img___p3Gull"></v-img>
+          class="img___p3Gull"></v-img><br><br>
         <h2><a
             href="https://p3.no/ramon-er-ein-milepael-innan-skeiv-norsk-med-ein-gong-ein-skiftar-ut-eit-pronomen-vert-folk-sann-wow-du-er-kjempeviktig-for-mange/">Ramón</a>
         </h2>
@@ -164,7 +163,7 @@
         <p><em>Som låtskriver tør Ramón å være <a
               href="https://p3.no/ramon-er-ein-milepael-innan-skeiv-norsk-med-ein-gong-ein-skiftar-ut-eit-pronomen-vert-folk-sann-wow-du-er-kjempeviktig-for-mange/">sårbar
               og ærlig</a>. Musikken hans er upolert og velprodusert og hans varme stemme får det til å kile i
-            tårekanalene.</em></p>
+            tårekanalene.</em></p><br>
       </div>
       <v-img
         src="https://i0.wp.com/p3.no/wp-content/uploads/2022/10/p3gull-2022-ramon-sak-4-scaled.jpg?fit=2560%2C1707&amp;ssl=1"
@@ -172,7 +171,7 @@
       <div class="center__child">
         <figcaption> DEBUTALBUM: På tampen av september kom Ramóns debutalbum <a
             href="https://p3.no/synger-om-folelser-alle-kan-kjenne-igjen/">«Så klart det gjør vondt»</a>, som gikk rett
-          inn på første plass på Spotify. Foto: Tom Øverlie, NRK P3</figcaption>
+          inn på første plass på Spotify. Foto: Tom Øverlie, NRK P3</figcaption><br>
         <h2>Glemmer ikke 18. februar</h2>
         <p><em><em>– Hvordan vil du oppsummere «Ramón-året» 2022?</em> </em>
         </p>
@@ -187,11 +186,11 @@
         <p><em>– Hva er planen din i 2023?</em></p>
         <p>– Jeg skal fortsette å lage musikk og spille rundt i Norge! Også
           skal jeg spille i Sverige og Danmark også, det blir veldig spennende. Ja, også må jeg jo skrive en til plate da.
-          Så jeg blir «busy booked».</p>
+          Så jeg blir «busy booked».</p><br>
       </div>
     </div>
     <div class="black__background__color">
-      <div class="center__child">
+      <div class="center__child"><br>
         <v-img src="https://i0.wp.com/p3.no/wp-content/uploads/2022/11/Karpe.png?fit=781%2C904&amp;ssl=1"
           class="img___p3Gull"></v-img>
         <h2>Karpe</h2>
@@ -202,14 +201,13 @@
             drar ikke stigen opp etter seg, men tar med seg andre artister på reiser. </em></p>
         <p><em>Det er imponerende at Karpe etter så mange år fortsatt evner å fornye seg og tilføre noe nytt,
             interessant og fengende til populærmusikken.</em></p>
-      </div>
+      </div><br>
       <v-img
         src="https://i0.wp.com/p3.no/wp-content/uploads/2022/06/Karpe-live-på-Neon-2022-Foto-Morten-Skogly-NRK-P3-C85A7260-scaled.jpg?fit=2560%2C1440&amp;ssl=1"
         class="img___p3Gull-full"></v-img>
       <div class="center__child">
         <figcaption>TERNINGKAST 6: Karpe fikk toppkarakter for både <a href="https://p3.no/karpe-toyer-grensene/">EP
-          </a>og <a href="https://p3.no/verdt-festivalbilletten-alene/">liveshow </a>i 2022. Foto: Morten Skogly, NRK
-          P3</figcaption>
+          </a>og <a href="https://p3.no/verdt-festivalbilletten-alene/">liveshow </a>i 2022. Foto: Morten Skogly, P3</figcaption><br>
         <h2>Klare for Europa-turné </h2>
         <p><em><em>– Hvordan vil dere oppsummere «Karpe-året» 2022?</em>
           </em></p>
@@ -219,13 +217,13 @@
         <p><em>– Hva er planen deres i 2023?</em></p>
         <p>– Vi skal på Europa-turné, blant annet. Vi besøker 20
           europeiske byer. Hvis ikke det blir utsolgt kjapt så kan det hende det til og med kommer noen som ikke kan
-          norsk. Fingers crossed.&nbsp;</p>
+          norsk. Fingers crossed.&nbsp;</p><br>
       </div>
     </div>
     <div class="blue__background__color">
-      <div class="text__center">
+      <div class="text__center"><br>
         <p>Journalister:&nbsp;<strong>Espen Roness og Sjur Systad
-            Tyssen</strong><br>Illustrasjoner:&nbsp;<strong>Veronica Falsen Hiis</strong><br></p>
+            Tyssen</strong><br>Illustrasjoner:&nbsp;<strong>Veronica Falsen Hiis</strong><br></p><br>
       </div>
     </div>
   </article>
@@ -273,7 +271,7 @@ export default {
 }
 
 .center__child {
-  width: 800px;
+  width: 65%;
   margin: 0 auto;
 }
 
@@ -285,18 +283,13 @@ export default {
 
 .img___p3Gull {
   height: auto;
-
   vertical-align: bottom;
-  align-items: center;
-  align-content: center;
-  margin: 0 0 0 0;
+
 }
 
 .img___p3Gull-full {
   height: auto;
   vertical-align: bottom;
-  align-items: center;
-  align-content: center;
-  margin: 0 0 0 0;
+
 }
 </style>

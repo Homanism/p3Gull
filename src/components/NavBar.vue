@@ -6,16 +6,9 @@
   <v-app-bar app color="black" dark prominent>
     <v-icon class="mr-2">mdi-hexagon-multiple</v-icon>
     <v-toolbar-title>
-      <v-img class='NavBar__Img'
-        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvsOEzRWRPeI66HiLZiSHESRhifcIg37mg8w&usqp=CAU.jpg">
+      <v-img class='NavBar__Img' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvsOEzRWRPeI66HiLZiSHESRhifcIg37mg8w&usqp=CAU.jpg">
       </v-img>
     </v-toolbar-title>
-    <v-tabs v-model="tab">
-      <v-tabs-slider color="#4682b4"></v-tabs-slider>
-      <v-tab @click="changes('2023')">2023</v-tab>
-      <v-tab @click="changes('2022')">2022</v-tab>
-      <v-tab @click="changes('2021')">2021</v-tab>
-    </v-tabs>
     <v-spacer></v-spacer>
     <v-autocomplete clearable hide-no-data hide-selected color="white" label="search" prepend-inner-icon="search" flat
       :items="movies" item-text="title" item-value="id" id="search">
@@ -45,7 +38,6 @@ export default {
     tab: 0,
     model: '',
     search: null,
-    movies: [],
     drawerRight: false,
     group: null,
     items: [
@@ -66,7 +58,7 @@ export default {
         value: 'Homan',
       },
     ],
-    titleRowHeight: 10,
+    titleRowHeight: 10
 
   }),
   watch: {
@@ -75,23 +67,13 @@ export default {
     },
   },
   mounted() {
-    this.loadMovies();
     document.title = '2023'
   },
   methods: {
-    loadMovies: async function () {
-      try {
-        const response = await this.$http.get("/movie/popular");
-        this.movies = response.data.results;
-
-      } catch (error) {
-        console.log(error);
-      }
-    },
     changes(tab) {
       document.title = tab
     }
-  }
+        }
 }
 </script>
 <style>
