@@ -1,13 +1,13 @@
 <template>
   <article>
     <div class="blue__background__color">
-      <h1 class="entry__title">Disse er nominert til «Årets artist»</h1><br><br><br>
+      <v-img class="transition__image-1" src="https://p3.no/wp-content/themes/p3v2/images/p3gull2022/artist/form-1.png"></v-img><br><br><br><br>
+      <h1 class="entry__title">Disse er nominert til «Årets artist»</h1><br>
       <div class="center__child">
         <p>Nå kan du bestemme hvem som fortjener prisen «Årets artist» under «P3 Gull» 2023!</p><br>
         <p>Det har vært et år med mye sterk musikk, og for noen artister har 2022 virkelig vært deres år.</p><br>
         <p><strong><strong>Frem til 16. mai klokken 15.00 kan du stemme på din favoritt!</strong></strong></p><br>
         <p>Selve «P3 Gull» arrangeres også 16. mai. Du kan følge med direkte på Homan Tv. </p><br><br>
-
         <div class="text__center">
           <p><strong>Her er de nominerte:</strong></p>
           <p>Ballinciaga</p>
@@ -45,6 +45,7 @@
       <br><br><br>
     </div>
     <div class="black__background__color">
+      <v-img class="transition__image-2" src="https://p3.no/wp-content/themes/p3v2/images/p3gull2022/artist/form-2.png"></v-img>
       <div class="center__child">
         <v-img src="https://i0.wp.com/p3.no/wp-content/uploads/2022/11/Ballinciaga.png?w=781&ssl=1.jpg"
           class="img___p3Gull"></v-img>
@@ -60,7 +61,7 @@
             distanserte i kontrast til den svært så tilgjengelige musikken? </em></p>
         <p><em>Uansett: Det bli ikke fest uten Ballinciaga i 2022!</em></p><br>
       </div>
-      <v-img
+      <v-img 
         src="https://i0.wp.com/p3.no/wp-content/uploads/2022/05/Ballinciaga_11-scaled.jpg?fit=2560%2C1708&amp;ssl=1.jpg"
         class="img___p3Gull-full"></v-img>
       <div class="center__child">
@@ -81,6 +82,7 @@
       </div>
     </div>
     <div class="blue__background__color">
+      <v-img class="transition__image-1" src="https://p3.no/wp-content/themes/p3v2/images/p3gull2022/artist/form-3.png"></v-img>
       <div class="center__child">
         <v-img src="https://i0.wp.com/p3.no/wp-content/uploads/2022/11/Undergrunn.png?w=781&ssl=1.jpg"
           class="img___p3Gull"></v-img><br>
@@ -108,6 +110,7 @@
       </div>
     </div>
     <div class="black__background__color">
+      <v-img class="transition__image-2" src="https://p3.no/wp-content/themes/p3v2/images/p3gull2022/artist/form-2.png"></v-img>
       <div class="center__child">
         <v-img src="https://i0.wp.com/p3.no/wp-content/uploads/2022/11/SynneVo.png?w=781&ssl=1.jpg"
           class="img___p3Gull"></v-img>
@@ -146,6 +149,7 @@
       </div>
     </div>
     <div class="blue__background__color">
+      <v-img class="transition__image-1" src="https://p3.no/wp-content/themes/p3v2/images/p3gull2022/artist/form-1.png"></v-img>
       <div class="center__child">
         <v-img src="https://i0.wp.com/p3.no/wp-content/uploads/2022/11/Ramon.png?fit=781%2C904&amp;ssl=1.jpg"
           class="img___p3Gull"></v-img><br><br>
@@ -190,6 +194,7 @@
       </div>
     </div>
     <div class="black__background__color">
+      <v-img class="transition__image-1" src="https://p3.no/wp-content/themes/p3v2/images/p3gull2022/artist/form-3.png"></v-img>
       <div class="center__child"><br>
         <v-img src="https://i0.wp.com/p3.no/wp-content/uploads/2022/11/Karpe.png?fit=781%2C904&amp;ssl=1"
           class="img___p3Gull"></v-img>
@@ -291,5 +296,17 @@ export default {
   height: auto;
   vertical-align: bottom;
 
+}
+.transition__image-1 {
+  position: absolute;
+  width: 15%;
+  top: -50px;
+  left: 85%;
+}
+.transition__image-2{
+  position: absolute;
+  width: 15%;
+  top: -85px;
+  
 }
 </style>
