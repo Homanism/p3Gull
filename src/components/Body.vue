@@ -1,7 +1,7 @@
 <template>
   <article>
     <div class="blue__background__color">
-      <v-img class="transition__image-1" src="https://p3.no/wp-content/themes/p3v2/images/p3gull2022/artist/form-1.png"></v-img><br><br><br><br>
+      <v-img class="transition__image-1" src="https://p3.no/wp-content/themes/p3v2/images/p3gull2022/artist/form-1.png"></v-img><br><br><br><br><br><br>
       <h1 class="entry__title">Disse er nominert til «Årets artist»</h1><br>
       <div class="center__child">
         <p>Nå kan du bestemme hvem som fortjener prisen «Årets artist» under «P3 Gull» 2023!</p><br>
@@ -19,9 +19,7 @@
       </div>
     </div>
     <div>
-      ############################
-      <br><br><br>
-      ###########################
+      <vote/>
     </div>
     <div class="blue__background__color">
       <v-container class="center__child">
