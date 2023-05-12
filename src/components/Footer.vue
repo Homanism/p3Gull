@@ -12,23 +12,15 @@
     </v-col>
       <v-col cols="4">
         <h4>Besøk</h4>
-        <p>
-          Oslo: Bjørnstjerne Bjørnsons Plass 1, Marienlyst (<a href="https://bit.ly/kartNRKp3Oslo">kart</a>)<br>
-          Trondheim: Otto Nielsens veg 2, Tyholt (<a href="https://bit.ly/kartNRKp3Trondheim">kart</a>)
-        </p>
+        <p>Oslo: Bjørnstjerne Bjørnsons Plass 1, Marienlyst (<a href="https://bit.ly/kartNRKp3Oslo">kart</a>)<br>
+          Trondheim: Otto Nielsens veg 2, Tyholt (<a href="https://bit.ly/kartNRKp3Trondheim">kart</a>)</p>
       </v-col>
       <v-col cols="4">	
         <h4>Følg oss</h4>
           <a href="https://instagram.com/nrkp3" title="Følg oss på Instagram" >
-            <v-img style="width:2em;height:2em" src="https://www.citypng.com/public/uploads/preview/-115981405804zwku1bp9s.png">
-            </v-img>
-          
-          </a>
+          <v-img class="sosiale__medier__icon" src="https://www.citypng.com/public/uploads/preview/-115981405804zwku1bp9s.png"></v-img></a>
           <a href="https://www.snapchat.com/add/p3snap" title="Følg oss på Snapchat" >
-            <v-img style="width:2em;height:2em" src="https://www.citypng.com/public/uploads/preview/-11600705775qbd0gmt15z.png">
-              
-            </v-img></a>
-            
+          <v-img class="sosiale__medier__icon" src="https://www.citypng.com/public/uploads/preview/-11600705775qbd0gmt15z.png"></v-img></a>
       </v-col>
   </v-row>
 	</div>
@@ -69,16 +61,7 @@
 </template>
 
 <script>
-export default {
-   data: () =>({
-       icons:[
-           'mdi-facebook',
-           'mdi-twitter',
-           'mdi-linkedin',
-           'mdi-instagram'
-       ]
-   })
-}
+//
 </script>
 
 <style>
@@ -93,11 +76,7 @@ export default {
 a {
   color: #ffffff;
 }
-a.bla
-.center__child {
-  width: 800px;
-  margin: 0 auto;
-}
+
 .nrk__om{
   padding-left: 350px;
   color: #ffffff;
@@ -119,5 +98,9 @@ hr.dashed {
 
 p a {
   color: rgb(0, 0, 0);
+}
+.sosiale__medier__icon{
+  width:2em;
+  height:2em
 }
 </style>
