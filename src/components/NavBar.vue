@@ -38,12 +38,8 @@
 </template>
 
 <script >
-import Vote from '@/views/Vote.vue';
 export default {
   name: 'NavBar',
-  components: {
-    Vote,
-  },
   data: () => ({
     drawer: null,
     tab: 0,

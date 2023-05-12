@@ -231,12 +231,12 @@
   </article>
 </template>
 <script>
-import NavBar from '@/components/Vote.vue'
+import Vote from './Vote.vue'
 
 export default {
   name: 'Body',
   components: {
-    Vote,
+    Vote
   },
 };
 </script>
