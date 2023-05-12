@@ -1,6 +1,6 @@
 <template>
   <v-navigation-drawer v-model="drawerRight" location="right">
-    <!-- <v-img src="https://info.nrk.no/wp-content/uploads/2019/09/NRKP3-hovedlogo_c_RGB.jpg"> </v-img> -->
+    <v-img src="https://info.nrk.no/wp-content/uploads/2019/09/NRKP3-hovedlogo_c_RGB.jpg"> </v-img>
     <v-list :items="items"></v-list>
 
   </v-navigation-drawer>

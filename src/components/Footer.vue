@@ -1,50 +1,53 @@
 <template>
 <footer id="content-info" role="contentinfo">
+  <hr class="dashed">
 	<!-- P3.no footer -->
 	<div class="p3-footer-container">
-	<div id="p3-footer" class="row vspacetop vspacebottom">
-		<div class="four fp50 fp50-l columns vspacetop vspacebottom">
- 		  <h6>Kontakt</h6>
- 		  <p>
-          Direkte til P3: <a href="mailto:p3@nrk.no">p3@nrk.no</a><br>
-		  Musikktips: <a href="mailto:musikkprodusenterP3@nrk.no">musikkprodusenterP3@nrk.no</a><br>
-          Kontakt NRK: 23 04 70 00
-		</p>
-		</div>
-		<div class="four fp50 columns vspacetop vspacebottom">
-          <h6>Besøk</h6>
-          <p>
+<v-row class="footer__row">
+    <v-col cols="4">
+      <h4>Kontakt</h4>
+      <p> Direkte til P3: <a href="mailto:p3@nrk.no">p3@nrk.no</a><br>
+        Musikktips: <a href="mailto:musikkprodusenterP3@nrk.no">musikkprodusenterP3@nrk.no</a><br>
+        Kontakt NRK: 23 04 70 00</p>
+    </v-col>
+      <v-col cols="4">
+        <h4>Besøk</h4>
+        <p>
           Oslo: Bjørnstjerne Bjørnsons Plass 1, Marienlyst (<a href="https://bit.ly/kartNRKp3Oslo">kart</a>)<br>
           Trondheim: Otto Nielsens veg 2, Tyholt (<a href="https://bit.ly/kartNRKp3Trondheim">kart</a>)
-          </p>
-		</div>
-
-		<div class="four fp-clearfloat columns vspacetop vspacebottom">	
-			
-			<h6>Følg oss</h6>
-			
-			<div class="p3gullsocial">
-				<a href="https://instagram.com/nrkp3" title="Følg oss på Instagram" target="_blank"><svg style="width:3em;height:3em" focusable="false" aria-hidden="true"><use xlink:href="#nrk-some-instagram"></use></svg></a>
-				<a href="https://www.snapchat.com/add/p3snap" title="Følg oss på Snapchat" target="_blank"><svg style="width:3em;height:3em" focusable="false" aria-hidden="true"><use xlink:href="#nrk-some-snapchat"></use></svg></a>
-			</div>
-		</div>
-	</div>
+        </p>
+      </v-col>
+      <v-col cols="4">	
+        <h4>Følg oss</h4>
+          <a href="https://instagram.com/nrkp3" title="Følg oss på Instagram" >
+            <v-img style="width:2em;height:2em" src="https://www.citypng.com/public/uploads/preview/-115981405804zwku1bp9s.png">
+            </v-img>
+          
+          </a>
+          <a href="https://www.snapchat.com/add/p3snap" title="Følg oss på Snapchat" >
+            <v-img style="width:2em;height:2em" src="https://www.citypng.com/public/uploads/preview/-11600705775qbd0gmt15z.png">
+              
+            </v-img></a>
+            
+      </v-col>
+  </v-row>
 	</div>
 	<!-- // P3.no footer -->
 
 	<!-- NRK.no-footer-->
-<div id="nrkfooter">
-<div class="row">
-  <div class="nrk-om">
+<div class="black__background__color">
+<v-row>
+  <v-col cols="6" class="nrk__om">
 	<ul>
 	  <li>
 		<a title="Opphavsrett NRK © 2023" href="https://www.nrk.no/etikk/opphavsrett-pa-nrk.no-1.2843522">Opphavsrett NRK © 2023</a>
 	  </li>
 	  <li>Redaktør P3: <a title="Camilla Bjørn" href="mailto:Camilla.Bjorn@nrk.no">Camilla Bjørn</a></li>
 	  <li>Ansvarlig redaktør: <a title="Thor Gjermund Eriksen" href="//www.nrk.no/informasjon/1.2843526">Vibeke Fürst Haugen</a></li>
+    <li>Sjefen: <a title="Homan Mousavi" href="https://homanism.github.io/Homan-portfolio/">Homan Mousavi</a></li>
 	</ul>
-  </div>
-  <div class="nrk-hjelp">
+  </v-col>
+  <v-col cols="6" class="nrk__hjelp">
 	<ul>
 	  <li>
 		<a title="Kontakt NRK" href="//www.nrk.no/kontakt/">Kontakt NRK</a>
@@ -58,9 +61,8 @@
 		<a title="Informasjonskapsler (cookies)" href="//www.nrk.no/retningslinjer/informasjonskapsler-_cookies_-1.11109868">Informasjonskapsler (cookies)</a>
 	  </li>	  
 	</ul>
-
-  </div>
-</div>
+  </v-col>
+</v-row>
 </div>
 <!-- //NRK.no-footer-->
 	</footer>
@@ -80,5 +82,42 @@ export default {
 </script>
 
 <style>
+.black__background__color {
+  background-color: black;
+  align-items: center;
+  text-align: left;
+  position: relative;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+a {
+  color: #ffffff;
+}
+a.bla
+.center__child {
+  width: 800px;
+  margin: 0 auto;
+}
+.nrk__om{
+  padding-left: 350px;
+  color: #ffffff;
 
+}
+.nrk__hjelp{
+  padding-left: 120px;
+  color: #ffffff;
+}
+
+/* Dashed border */
+hr.dashed {
+  border-top: 3px dotted #32a4eb;
+  border-radius: 5px;
+}
+.footer__row{
+  margin: 5px 250px 5px 300px;
+}
+
+p a {
+  color: rgb(0, 0, 0);
+}
 </style>
