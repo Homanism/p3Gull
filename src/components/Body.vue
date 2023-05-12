@@ -230,8 +230,15 @@
     </div>
   </article>
 </template>
-<script setup>
-  //
+<script>
+import NavBar from '@/components/Vote.vue'
+
+export default {
+  name: 'Body',
+  components: {
+    Vote,
+  },
+};
 </script>
 
 <style>

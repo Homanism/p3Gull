@@ -3,7 +3,6 @@
     <Header />
     <v-main>
       <router-view />
-
       <Body />
     </v-main>
     <Footer />
@@ -15,7 +14,7 @@ import Header from '@/components/Header.vue'
 import Body from '@/components/Body.vue'
 
 export default {
-  name: 'App',
+  name: 'Home',
   components: {
     Header,
     Body
