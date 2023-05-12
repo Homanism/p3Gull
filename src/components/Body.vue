@@ -16,6 +16,7 @@
           <p>Ramón</p>
           <p>Karpe</p>
         </div>
+        <h1>Hvem bør vinne «Årets artist»?</h1><br>
       </div>
     </div>
     <div>

@@ -1,16 +1,7 @@
 <template>
-  <v-card
-    :loading="loading"
-    class="vote__card"
-    max-width="374"
-  >
+  <v-card :loading="loading" class="vote__card" max-width="374">
     <template v-slot:loader="{ isActive }">
-      <v-progress-linear
-        :active="isActive"
-        color="deep-purple"
-        height="4"
-        indeterminate
-      ></v-progress-linear>
+      <v-progress-linear :active="isActive" color="deep-purple" height="4" indeterminate></v-progress-linear>
     </template>
 
     <v-img
@@ -25,27 +16,13 @@
       <v-card-subtitle>
         <span class="me-1">Local Favorite</span>
 
-        <v-icon
-          color="error"
-          icon="mdi-fire-circle"
-          size="small"
-        ></v-icon>
+        <v-icon color="error" icon="mdi-fire-circle" size="small"></v-icon>
       </v-card-subtitle>
     </v-card-item>
 
     <v-card-text>
-      <v-row
-        align="center"
-        class="mx-0"
-      >
-        <v-rating
-          :model-value="4.5"
-          color="amber"
-          density="compact"
-          half-increments
-          readonly
-          size="small"
-        ></v-rating>
+      <v-row align="center" class="mx-0">
+        <v-rating :model-value="4.5" color="amber" density="compact" half-increments readonly size="small"></v-rating>
 
         <div class="text-grey ms-4">
           4.5 (413)
@@ -58,12 +35,8 @@
     </v-card-text>
     <v-divider class="mx-4 mb-1"></v-divider>
     <v-card-actions>
-      <v-btn
-        color="deep-purple-lighten-2"
-        variant="text"
-        @click="vote"
-      >
-      Stem
+      <v-btn color="deep-purple-lighten-2" variant="text" @click="vote">
+        Stem
       </v-btn>
     </v-card-actions>
   </v-card>
@@ -71,22 +44,23 @@
 
 <script >
 export default {
+  props: ['card'],
   name: 'VoteCard',
   data: () => ({
     loading: false,
-      selection: 1,
+    selection: 1,
   }),
 
   methods: {
-    vote () {
-        this.loading = true
-        setTimeout(() => (this.loading = false), 2000)
-      },
+    vote() {
+      this.loading = true
+      setTimeout(() => (this.loading = false), 2000)
+    },
+    created() {
+      // props are exposed on `this`
+      console.log(this.foo)
+    },
   }
 }
 </script>
-<style>
-.vote__card{
-  margin: 0;
-  padding: 0;
-}</style>
+<style></style>

@@ -1,9 +1,8 @@
 <template>
-  <div class="blue__background__color">
-    <h1>Hvem bør vinne «Årets artist»?</h1>
+  <div class="blue__background">
     <v-row>
-      <v-col class="voteCard__col">
-        <VoteCard />
+      <v-col>
+        <VoteCard foo= "card"/>
       </v-col>
       <v-col>
         <VoteCard />
@@ -26,18 +25,28 @@ export default {
   components: {
     VoteCard,
   },
+  data: () => ({
+    card : "homan"
+  }),
+  // mounted() {
+  //   this.card
+  // },
 }
 </script>
 <style>
-.blue__background__color {
+.blue__background {
   background-color: #32a4eb;
   color: black;
   padding: 2% 0% 2% 2%;
   text-align: center;
 }
 
-.voteCard__col{
+.v-col {
   padding-left: 0;
-  padding-right: 0;
+  padding-right: 1%;
+}
+
+.v-row {
+  max-width: 1274px;
 }
 </style>
