@@ -2,16 +2,16 @@
   <div class="blue__background">
     <v-row>
       <v-col>
-        <VoteCard foo= "card"/>
+        <VoteCard :card="card" />
       </v-col>
       <v-col>
-        <VoteCard />
+        <VoteCard :card="card" />
       </v-col>
       <v-col>
-        <VoteCard />
+        <VoteCard :card="card" />
       </v-col>
       <v-col>
-        <VoteCard />
+        <VoteCard :card="card" />
       </v-col>
     </v-row>
   </div>
@@ -26,7 +26,12 @@ export default {
     VoteCard,
   },
   data: () => ({
-    card : "homan"
+    card: {
+      name: "Ballinciaga",
+      rate: 4.8,
+      link: 'https://i0.wp.com/p3.no/wp-content/uploads/2022/11/Ballinciaga.png?w=781&ssl=1',
+      des: 'Ballinciaga har gått fra å produsere russelåter i hopetall til å skape musikk som får folk i hele landet til å danse på bordet.'
+    }
   }),
   // mounted() {
   //   this.card
