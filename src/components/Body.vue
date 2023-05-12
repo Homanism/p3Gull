@@ -44,7 +44,6 @@
       </v-container>
       <br><br><br>
     </div>
-
     <div class="black__background__color">
       <div class="center__child">
         <v-img src="https://i0.wp.com/p3.no/wp-content/uploads/2022/11/Ballinciaga.png?w=781&ssl=1.jpg"
@@ -192,42 +191,42 @@
       </div>
     </div>
     <div class="black__background__color">
-      <div class="center__child">        
+      <div class="center__child">
         <v-img src="https://i0.wp.com/p3.no/wp-content/uploads/2022/11/Karpe.png?fit=781%2C904&amp;ssl=1"
-        class="img___p3Gull"></v-img>
+          class="img___p3Gull"></v-img>
         <h2>Karpe</h2>
         <p><strong>«P3 Gull»-juryen om Karpe:</strong></p>
         <p><em>Karpe har ikke bare slått norske konsertrekorder med ti ganger Oslo Spektrum i år. De er også med på å
-          redefinere vår oppfattelse av hva en konsertopplevelse kan være. </em></p>
-          <p><em>Deres innovative og evig utforskende tilnærming til musikk gjør dem til ledestjerner i bransjen. Og de
+            redefinere vår oppfattelse av hva en konsertopplevelse kan være. </em></p>
+        <p><em>Deres innovative og evig utforskende tilnærming til musikk gjør dem til ledestjerner i bransjen. Og de
             drar ikke stigen opp etter seg, men tar med seg andre artister på reiser. </em></p>
-            <p><em>Det er imponerende at Karpe etter så mange år fortsatt evner å fornye seg og tilføre noe nytt,
-              interessant og fengende til populærmusikken.</em></p>
-            </div>
+        <p><em>Det er imponerende at Karpe etter så mange år fortsatt evner å fornye seg og tilføre noe nytt,
+            interessant og fengende til populærmusikken.</em></p>
+      </div>
       <v-img
         src="https://i0.wp.com/p3.no/wp-content/uploads/2022/06/Karpe-live-på-Neon-2022-Foto-Morten-Skogly-NRK-P3-C85A7260-scaled.jpg?fit=2560%2C1440&amp;ssl=1"
         class="img___p3Gull-full"></v-img>
-        <div class="center__child">
-          <figcaption>TERNINGKAST 6: Karpe fikk toppkarakter for både <a href="https://p3.no/karpe-toyer-grensene/">EP
+      <div class="center__child">
+        <figcaption>TERNINGKAST 6: Karpe fikk toppkarakter for både <a href="https://p3.no/karpe-toyer-grensene/">EP
           </a>og <a href="https://p3.no/verdt-festivalbilletten-alene/">liveshow </a>i 2022. Foto: Morten Skogly, NRK
           P3</figcaption>
-          <h2>Klare for Europa-turné </h2>
-          <p><em><em>– Hvordan vil dere oppsummere «Karpe-året» 2022?</em>
+        <h2>Klare for Europa-turné </h2>
+        <p><em><em>– Hvordan vil dere oppsummere «Karpe-året» 2022?</em>
           </em></p>
-          <p>– Veldig bra!</p>
-          <p><em>– Hva husker dere best fra 2022?</em></p>
-          <p>– «The most beautiful show in the world right now».&nbsp;</p>
-          <p><em>– Hva er planen deres i 2023?</em></p>
-          <p>– Vi skal på Europa-turné, blant annet. Vi besøker 20
-            europeiske byer. Hvis ikke det blir utsolgt kjapt så kan det hende det til og med kommer noen som ikke kan
-            norsk. Fingers crossed.&nbsp;</p>
-          </div>
+        <p>– Veldig bra!</p>
+        <p><em>– Hva husker dere best fra 2022?</em></p>
+        <p>– «The most beautiful show in the world right now».&nbsp;</p>
+        <p><em>– Hva er planen deres i 2023?</em></p>
+        <p>– Vi skal på Europa-turné, blant annet. Vi besøker 20
+          europeiske byer. Hvis ikke det blir utsolgt kjapt så kan det hende det til og med kommer noen som ikke kan
+          norsk. Fingers crossed.&nbsp;</p>
+      </div>
     </div>
     <div class="blue__background__color">
       <div class="text__center">
         <p>Journalister:&nbsp;<strong>Espen Roness og Sjur Systad
-          Tyssen</strong><br>Illustrasjoner:&nbsp;<strong>Veronica Falsen Hiis</strong><br></p>
-        </div>
+            Tyssen</strong><br>Illustrasjoner:&nbsp;<strong>Veronica Falsen Hiis</strong><br></p>
+      </div>
     </div>
   </article>
 </template>
@@ -292,4 +291,5 @@
   align-items: center;
   align-content: center;
   margin: 0 0 0 0;
-}</style>
+}
+</style>

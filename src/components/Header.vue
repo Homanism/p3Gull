@@ -2,9 +2,8 @@
   <div>
     <NavBar />
 
-		
-	</div>
 
+  </div>
 </template>
 
 <script>

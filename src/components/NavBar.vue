@@ -7,7 +7,9 @@
   <v-app-bar app color="black" dark prominent>
     <v-icon class="mr-2">mdi-hexagon-multiple</v-icon>
     <v-toolbar-title>
-      <v-img class='NavBar__Img' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvsOEzRWRPeI66HiLZiSHESRhifcIg37mg8w&usqp=CAU.jpg"> </v-img>
+      <v-img class='NavBar__Img'
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvsOEzRWRPeI66HiLZiSHESRhifcIg37mg8w&usqp=CAU.jpg">
+      </v-img>
     </v-toolbar-title>
 
     <v-tabs v-model="tab">
@@ -16,7 +18,7 @@
       <v-tab @click="changes('2022')">2022</v-tab>
       <v-tab @click="changes('2021')">2021</v-tab>
     </v-tabs>
-    
+
 
     <v-spacer></v-spacer>
     <v-autocomplete clearable hide-no-data hide-selected color="white" label="search" prepend-inner-icon="search" flat
@@ -101,8 +103,8 @@ export default {
 }
 </script>
 <style>
-.NavBar__Img{
-max-width: 15%;
-height: 100px;
+.NavBar__Img {
+  max-width: 15%;
+  height: 100px;
 }
 </style>
