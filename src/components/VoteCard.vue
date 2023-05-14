@@ -15,15 +15,16 @@
       <!-- <v-rating :model-value="card.rate" class="vote-card-star" color="amber" density="compact" half-increments readonly
            size="small"></v-rating> -->
            <div class="spotify-embed">
-            <iframe src="https://embed.spotify.com/?uri=spotify:user:oosabaj:playlist:2UDe8QqHAXUaLrdb0QsDGE" width="340" height="80" frameborder="0" allowtransparency="true">
-            </iframe>
+             <!-- <iframe src="https://embed.spotify.com/?uri=spotify:user:oosabaj:playlist:2UDe8QqHAXUaLrdb0QsDGE" width="250" height="80" frameborder="0" allowtransparency="true"> -->
+             <iframe :src="card.spotify" width="250" height="80" frameborder="0" allowtransparency="true">
+          </iframe>
           </div>
       <!-- <v-card-text>
         <v-divider></v-divider>
         <div class="card__des">{{ card.des }}</div>
       </v-card-text> -->
       <v-divider class="mx-4 mb-1"></v-divider>
-      <v-btn color="deep-purple-lighten-2" variant="text"
+      <v-btn color="blue-lighten-2" variant="text"
         @click="vote({ cardImg: card.link, cardName: card.name, cardDes: card.des })">
         Stem
       </v-btn>
