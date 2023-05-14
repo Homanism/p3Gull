@@ -1,6 +1,6 @@
 <template>
-  <article>
-    <div class="blue__background__color">
+  <article class="main-content-cs">
+    <div class="blue__background__color" >
       <v-img class="transition__image-1" src="https://p3.no/wp-content/themes/p3v2/images/p3gull2022/artist/form-1.png"></v-img><br><br><br><br><br><br>
       <h1 class="entry__title">Disse er nominert til «Årets artist»</h1><br>
       <div class="center__child">
@@ -22,7 +22,7 @@
     <div>
       <vote/>
     </div>
-    <div class="blue__background__color">
+    <div class="blue__background__color" >
       <v-container class="center__child">
         <h3>HVORDAN STEMMER MAN
           PÅ «ÅRETS ARTIST»? </h3>
@@ -43,7 +43,7 @@
       </v-container>
       <br><br><br>
     </div>
-    <div class="black__background__color">
+    <div class="black__background__color" id="artist-1">
       <v-img class="transition__image-2" src="https://p3.no/wp-content/themes/p3v2/images/p3gull2022/artist/form-2.png"></v-img>
       <div class="center__child">
         <v-img src="https://i0.wp.com/p3.no/wp-content/uploads/2022/11/Ballinciaga.png?w=781&ssl=1.jpg"
@@ -60,9 +60,9 @@
             distanserte i kontrast til den svært så tilgjengelige musikken? </em></p>
         <p><em>Uansett: Det bli ikke fest uten Ballinciaga i 2022!</em></p><br>
       </div>
-      <v-img 
+      <v-img
         src="https://i0.wp.com/p3.no/wp-content/uploads/2022/05/Ballinciaga_11-scaled.jpg?fit=2560%2C1708&amp;ssl=1.jpg"
-        class="img___p3Gull-full"></v-img>
+        class="img___p3Gull-full" id="artist-2"></v-img>
       <div class="center__child">
         <figcaption>TVIHOLDER PÅ MASKENE: Ballinciaga hadde en utsolgt Spektrum-konsert i oktober. Foto: Kim
           Erlandsen, NRK P3</figcaption><br>
@@ -80,7 +80,7 @@
           selvfølgelig. Prøve å gi tilbake til alle fans vi har fått i år.</p><br>
       </div>
     </div>
-    <div class="blue__background__color">
+    <div class="blue__background__color" id="artist-3">
       <v-img class="transition__image-1" src="https://p3.no/wp-content/themes/p3v2/images/p3gull2022/artist/form-3.png"></v-img>
       <div class="center__child">
         <v-img src="https://i0.wp.com/p3.no/wp-content/uploads/2022/11/Undergrunn.png?w=781&ssl=1.jpg"
@@ -95,7 +95,7 @@
       </div>
       <v-img
         src="https://i0.wp.com/p3.no/wp-content/uploads/2022/10/52233244491_4f692fa48b_o-1-scaled.jpg?resize=1536%2C864&ssl=1.jpg"
-        class="img___p3Gull-full"></v-img>">
+        class="img___p3Gull-full" id="artist-4"></v-img>">
       <div class="center__child">
         <figcaption>LENGE PÅ TOPLISTENE: I mai fikk boybandet <a href="https://p3.no/superstjerner/">terningkast 6 for sin
         utsolgte konsert</a> på Sentrum scene. Foto: Eskil Olaf Vestre, NRK P3</figcaption><br>
@@ -277,6 +277,7 @@ export default {
 .center__child {
   width: 65%;
   margin: 0 auto;
+  /* text-align: center; */
 }
 
 .text__center {
@@ -306,6 +307,10 @@ export default {
   position: absolute;
   width: 15%;
   top: -85px;
-  
+
+}
+.main-content-cs{
+  margin-top: -8px;
+  display: block;
 }
 </style>
