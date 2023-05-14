@@ -1,28 +1,33 @@
 <template>
-  <router-view />
-</template>
 
-<script setup>
+    <router-view />
 
-import 'aos/dist/aos.css';
-
-import AOS from 'aos';
+  </template>
 
 
 
 
-AOS.init();
+  <script setup>
 
-</script>
+  import 'aos/dist/aos.css';
+
+  import AOS from 'aos';
 
 
 
 
-<style scoped>
+  AOS.init();
+
+  </script>
+
+
+
+
+  <style scoped>
 .v-application{
-display: block !important;
-margin-top: -24px;
+  display: block !important;
+  margin-top: -24px;
 }
-/* CSS styles for your component */
+  /* CSS styles for your component */
 
-</style>
+  </style>
