@@ -1,7 +1,8 @@
-8<template>
+<template>
   <div class="header__div">
     <NavBar /> <br><br><br><br>
-    <v-img src="https://p3.no/wp-content/uploads/2022/11/P3Gull_aaretsartist.png"></v-img>
+    <!-- <v-img src="https://p3.no/wp-content/uploads/2022/11/P3Gull_aaretsartist.png"></v-img> -->
+    <img class="main-banner-img" src="https://p3.no/wp-content/uploads/2022/11/P3Gull_aaretsartist.png" />
   </div>
 </template>
 <script>
@@ -23,6 +24,10 @@ export default {
 .header__div{
   /* margin-left: 6%; */
   margin-top: -8%;
+}
+.main-banner-img{
+  width: 100%;
+  height: 100%;
 }
 
 </style>
