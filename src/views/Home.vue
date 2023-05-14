@@ -1,5 +1,5 @@
 <template>
-  <v-app>
+  <v-app class="main-wrapper-cs">
     <Header />
       <Body />
     <Footer />
@@ -20,3 +20,12 @@ export default {
 
 };
 </script>
+<style>
+/* .main-wrapper-cs{
+  margin-top: -24px;
+} */
+.v-application{
+  display: block !important;
+
+}
+</style>
