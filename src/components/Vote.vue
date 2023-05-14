@@ -1,6 +1,6 @@
 <template>
   <div class="blue__background">
-    <v-row>
+    <v-row class="vote-card-cs">
       <v-col v-for="card in  cards" :key="card">
         <VoteCard :card="card" />
       </v-col>
@@ -53,16 +53,29 @@ export default {
 .blue__background {
   background-color: #32a4eb;
   color: black;
-  padding: 2% 0% 2% 2%;
+  padding: 2% 2% 2% 2%;
   text-align: center;
 }
 
 .v-col {
-  padding-left: 0;
-  padding-right: 1%;
+  padding-left: 0.5%;
+  padding-right: 0.5%;
+  width: 25%;
 }
 
 .v-row {
   justify-content: center;
 }
+@media screen and (max-width: 600px) {
+  .vote-card-cs{
+    width: 100%;
+    flex-direction: column !important;
+    margin: 0;
+  }
+  .vote-card-cs .v-col {
+    width: 100%;
+  }
+}
+
+
 </style>
